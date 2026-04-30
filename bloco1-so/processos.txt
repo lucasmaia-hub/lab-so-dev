@@ -76,7 +76,8 @@ ps -o pid,ppid,stat,cmd (depois do kill)
 #    O que esse encadeamento sugere sobre como os processos sao
 #    criados no Linux?
 
-Resposta 1:
+Resposta 1: suregere que esse valor muda
+
 
 
 # 2. O arquivo /proc/<PID>/status mostra o campo State com uma letra
@@ -84,4 +85,4 @@ Resposta 1:
 #    o que aconteceu com o processo filho? O que isso te faz pensar  
 #    sobre a vida de um processo?
 
-Resposta 2:
+Resposta 2: que a vida do processo acaba quando o prscesso kill é execultado
